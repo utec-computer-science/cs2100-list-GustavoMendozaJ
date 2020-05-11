@@ -8,7 +8,7 @@ class Node {
         Node<T> * next;
 
         Node(){ value = NULL; next = nullptr; }
-        Node(T a, Node<T> * b) : value(a), next(b) {}
+        Node(T aa, Node<T> * bb) : value(aa), next(bb) {}
 
         ~Node(){ value = NULL; next = nullptr; }
 };

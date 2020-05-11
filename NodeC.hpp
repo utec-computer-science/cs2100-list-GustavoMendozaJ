@@ -1,14 +1,14 @@
 #pragma once
 
 template <typename T>
-class Node2 {
+class NodeC {
     public:
         T value;
-        Node2<T> * next;
-        Node2<T> * prev;
+        NodeC<T> * next;
+        NodeC<T> * prev;
 
-        Node2(){ value = NULL; next = nullptr; prev = nullptr; }
-        Node2(T a, Node2<T> * b, Node2<T> * c) : value(a), next(b), prev(c) {}
+        NodeC(){ value = NULL; next = nullptr; prev = nullptr; }
+        NodeC(T aa, Node2<T> * bb, Node2<T> * cc) : value(aa), next(bb), prev(cc) {}
 
-        ~Node2(){ value = NULL; next = nullptr; prev = nullptr; }
+        ~NodeC(){ value = NULL; next = nullptr; prev = nullptr; }
 };
